@@ -1,0 +1,140 @@
+/* Global Style */
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0%;
+  background-color: rgb(167, 184, 214);
+  color: rgb(176, 192, 212);
+  line-height: 1,6;
+}
+
+.container {
+  max-width: 1000px ;
+  margin : 0 auto;
+  padding: 20px;
+}
+
+ /*HEADER STYLE */
+ header {
+    background: linear-gradient( rgb(103, 129, 168) , rgb(165, 172, 207) );
+    color: rgb(58, 85, 143);
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 12px rgb(140, 155, 197)
+
+ }
+
+
+ header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+ }
+
+ header p {
+  margin: 10px 0 0;
+  font-size:  1.2rem;
+  opacity: 0.9;
+ }
+
+ /* SECTION STYLES */
+ section {
+   background-color: rgb(103, 129, 168);
+   margin: 25px 0;
+   padding: 25px;
+   border-radius: 10px;
+   box-shadow: 0 2px rgb(218, 230, 252);
+ }
+
+ h2 {
+   color : rgb(151, 171, 209);
+   -webkit-text-fill-color: rgb(24, 56, 126);
+   border-bottom:  2px solid rgb(134, 151, 197);
+   padding-bottom: 10px;
+   margin-top: 0%;
+ }
+
+ .ket{
+  -webkit-text-fill-color: rgb(24, 56, 126);
+
+ }
+ /* QUOTES STYLES */
+ .quotes {
+   background-color: rgb(141, 173, 211);
+   border-left: 25px solid rgb rgb(100, 120, 175) ;
+   -webkit-text-fill-color: rgb(24, 56, 126);
+   padding: 10px 15px;
+   font-style: italic;
+   font-size: 1.2 rem
+ }
+
+ /* Video Styles */
+  .video-container {
+    position: relative;
+    padding: ;
+    width: 30px;
+    height: 159px;
+
+}
+
+ /*  TABLE STYLES */
+ table {
+   border: 3px solid rgb rgb(102, 124, 161); 
+   border-collapse: collapse;
+   border-width:1px ;
+   border-style:groove ;
+   border-color: rgb(114, 137, 168);
+   padding: 8px;
+   width: 100;
+   margin: 20px 0;
+   
+ }
+
+ th,td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom:1px rgb(78, 116, 196);
+ }
+
+th {
+  background-color: rgb(131, 166, 197);
+  color: rgb(18, 59, 94);
+}
+
+tr :nth-child(even) {
+  background-color:rgb(130, 150, 194);
+} 
+
+tr:hover {
+  background-color: rgb(93, 125, 153);
+}
+
+/* LINK STYLE */
+.LINK {
+  padding-left: 20px;
+}
+
+.link li {
+ margin-bottom: 10px;
+}
+
+.links a {
+  color: rgb(192, 197, 226);
+  text-decoration: dashed;
+  transition: color 0.3s;
+}
+
+.links a:hover {
+  color: rgb(29, 76, 117);
+  text-decoration: none;
+}
+
+ /* FOOTER STYLE */
+footer {
+    text-align: center;
+    padding: 20PX;
+    margin-top: 30px ;
+    color: rgb(112, 132, 187);
+    border-top: 1px solid rgb(102, 139, 184);
+    
+}
